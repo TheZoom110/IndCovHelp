@@ -1,6 +1,12 @@
-# Community Retweet Bot
+# IndCovHelp
 
 ## About
+
+This bot, [@IndCovHelp](https://twitter.com/IndCovHelp), retweets every tweet where the bot has been tagged, i.e., ```@IndCovHelp```. This bot provides a platform to anyone seeking medical help in its timeline, and also provides a platform to anyone wanting to help others by finding who needs help- right at the timeline of this bot.
+
+This bot is completely based upon the clone of the source code of [@botwikidotorg](https://twitter.com/botwikidotorg), provided [here](https://github.com/botwiki/community-retweet-bot) by [fourtonfish](https://twitter.com/fourtonfish).
+
+<!-- Original notes:
 
 A simple node.js-based Twitter bot (it uses the [ttezel/twit](https://github.com/ttezel/twit) node.js library) that retweets @ mentions (you can also modify it to use hashtags) from whitelisted accounts. To add an account to the whitelist, simply follow it while logged into Twitter as the bot.
 
@@ -8,9 +14,9 @@ A typical use case would be a group of people running a community who want to us
 
 You can also avoid the situation where someone follows both the "community account" and one (or more) of the community maintainers and sees the same tweet twice (or more times). By starting their tweet with ```@[bot's name]```, the original tweet is hidden from the followers' timelines as a part of a "private" conversation. 
 
-This is essentially the source code of [@botwikidotorg](https://twitter.com/botwikidotorg), the official [Botwiki](http://botwiki.org/) Twitter bot.
+This is essentially the source code of [@botwikidotorg](https://twitter.com/botwikidotorg), the official [Botwiki](http://botwiki.org/) Twitter bot. --->
 
-## Customization
+<!-- ## Customization
 
 There is really no need to change the ```community-retweet-bot.js``` file name, as it doesn't really show up anywhere. You can name your actual Twitter bot anything you want.
 
@@ -57,4 +63,4 @@ Or simply:
   checkTweetQueue();
 ```
 
-(Or you can just rewrite the whole thing so it doesn't use a queue at all.)
+(Or you can just rewrite the whole thing so it doesn't use a queue at all.) -->
