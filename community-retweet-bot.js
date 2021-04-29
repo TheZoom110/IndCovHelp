@@ -41,14 +41,15 @@ function checkTweetQueue(){
 
 var twitter = new Twit(config.twitter),
     stream = twitter.stream('statuses/filter', { track: [
-                                                    '@botwikidotorg'
-//                                                  '#botally'
+                                                    '@IndCovHelp'
+//                                                  '#IndCovHelp'
+//                                                  '#indcovhelp'
                                                   ]
                                                 });
 
 stream.on('tweet', function (tweet) {
   var whiteList = [];
-  twitter.get('friends/ids', { screen_name: 'botwikidotorg', stringify_ids: true },  function (err, data, response) {
+  twitter.get('friends/ids', { screen_name: 'IndCovHelp', stringify_ids: true },  function (err, data, response) {
     (function(tweet){
       if (data.ids.indexOf(tweet.user.id_str) > -1){
         if (loggingEnabled === true){
